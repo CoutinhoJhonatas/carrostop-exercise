@@ -14,7 +14,9 @@ export default function CatalogCard() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi
                 </p>
             </div>
-            <ButtonBuy />
+            <div className="crst-mt40">
+                <ButtonBuy />
+            </div>
         </div>
     );
 }

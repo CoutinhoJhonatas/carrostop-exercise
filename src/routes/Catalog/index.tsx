@@ -9,7 +9,9 @@ export default function Catalog() {
             <Header />
             <main>
                 <section className="crst-container">
-                    <SearchBar />
+                    <div className="crst-mt40">
+                        <SearchBar />
+                    </div>
                     <div className="crst-catalog-cards crst-mt40">
                         <CatalogCard />
                         <CatalogCard />

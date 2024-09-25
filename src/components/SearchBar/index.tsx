@@ -2,9 +2,9 @@ import './styles.css';
 
 export default function SearchBar() {
     return (
-        <form className="crst-search-bar crst-mt40">
+        <form className="crst-search-bar">
             <input type="text" placeholder="Digite sua busca" />
-            <button>BUSCAR</button>
+            <button type="submit">BUSCAR</button>
         </form>
     );
 }

@@ -1,5 +1,5 @@
 .crst-catalog-cards {
     display: grid;
     gap: 31px;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
   }
