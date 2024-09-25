@@ -1,0 +1,9 @@
+.crst-header-client {
+    background-color: var(--crst-color-bg-secondary);
+}
+
+nav h1 {
+    padding: 20px 0;
+    font-size: 24px;
+    color: var(--crst-color-font-secondary)
+}

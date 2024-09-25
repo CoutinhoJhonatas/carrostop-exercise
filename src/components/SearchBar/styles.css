@@ -1,0 +1,28 @@
+.crst-search-bar {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.crst-search-bar input {
+    width: calc(100% - 77px);
+    padding: 12px 0 12px 15px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid var(--crst-color-card-border);
+    border-right: none;
+}
+
+.crts-search-bar::placeholder {
+    color: var(--crst-color-font-placeholder);
+}
+
+.crst-search-bar button {
+    width: 77px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: var(--crts-color-btn-prmary);
+    color: var(--crst-color-font-primary);
+}

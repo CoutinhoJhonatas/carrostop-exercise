@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --crst-color-bg-primary: #EDEDED;
+  --crst-color-bg-secondary: #F78B00;
+
+  --crst-color-font-primary: #FFFFFF;
+  --crst-color-font-secondary: #00285F;
+  --crst-color-font-tertiary: #585858;
+  --crst-color-font-placeholder: #A7A7A7;
+
+  --crst-color-card-border: #A7A7A7;
+
+  --crts-color-btn-prmary: #00285F;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.crst-container {
+  width: 100%;
+  max-width: 980px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+}
+
+.crst-mt40 {
+  margin-top: 40px;
+}
+
+@media (min-width: 576px) {
+  .crst-container {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .crst-container {
+    padding: 00;
+  }
+}

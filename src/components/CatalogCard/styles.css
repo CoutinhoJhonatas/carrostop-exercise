@@ -1,0 +1,32 @@
+.crst-card {
+  border-radius: 10px;
+  padding: 15px 21px;
+  background-color: var(--crst-color-bg-primary);
+}
+
+.crst-catalog-card-top {
+  display: flex;
+  justify-content: center;
+}
+
+.crst-catalog-card-top img {
+  width: 220px;
+  height: 165px;
+}
+
+.crst-catalog-card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crst-catalog-card-bottom h3 {
+  font-size: 18px;
+}
+
+.crst-catalog-card-bottom p {
+  padding: 14px 0px 0 0px;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--crst-color-font-tertiary);
+}

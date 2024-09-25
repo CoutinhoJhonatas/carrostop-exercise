@@ -1,0 +1,12 @@
+.crst-btn-buy {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--crts-color-btn-prmary);
+    color: var(--crst-color-font-primary);
+}
